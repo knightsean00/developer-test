@@ -1,13 +1,120 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+		'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+		sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+		monospace;
 }
+
+ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+li {
+	cursor: pointer;
+	padding-bottom: .25em;
+}
+
+li:hover {
+	text-decoration: line-through;
+}
+
+.full {
+	min-height: 100vh;
+	max-height: 100%;
+
+	min-width: 100vw;
+	max-height: 100%;
+
+	background: #D1D1D1;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#card {
+	height: 540px;
+	width: 400px;
+
+	background: #FCC0CB;
+
+	border-radius: 10px;
+	box-shadow: 0px 0px 5px;
+	display: flex;
+	justify-content: center;
+}
+
+#card-list {
+	background: white;
+	border: 1px solid grey;
+	border-radius: 3px;
+	height: 47%;
+	width: calc(100% - 1em);
+	padding-left: 1em;
+	overflow: auto;
+}
+
+#card-input {
+	background: white;
+	border: 1px solid grey;
+	border-radius: 3px;
+	min-height: 2.5em;
+	width: calc(100% - 1em);
+
+	padding-left: 1em;
+	transition: border-color .25s ease-in-out;
+}
+
+#card-input:focus {
+	outline: none;
+	border-color: #57C4E5;
+	transition: border-color .25s ease-in-out;
+}
+
+.btn {
+	background-color: #91EB92;
+	text-align: center;
+	font-weight: bold;
+	padding-top: .75em;
+	padding-bottom: .75em;
+	border: 1px solid grey;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: background-color .25s ease-in-out;
+}
+.btn:hover {
+	background-color: #84d686;
+	transition: background-color .25s ease-in-out;
+}
+
+.container {
+	padding-top:5%;
+	width: 80%;
+}
+
+.w-50 {
+	min-width: 50%;
+}
+
+.w-100 {
+	min-width: 100%;
+}
+
+.m-br {
+	margin-top: 1.2em;
+}
+
+.text-center {
+	text-align: center;
+}
+
+
+
