@@ -26,6 +26,8 @@ li:hover {
 	text-decoration: line-through;
 }
 
+
+
 .full {
 	min-height: 100vh;
 	max-height: 100%;
@@ -34,7 +36,6 @@ li:hover {
 	max-height: 100%;
 
 	background: #D1D1D1;
-
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -45,7 +46,6 @@ li:hover {
 	width: 400px;
 
 	background: #FCC0CB;
-
 	border-radius: 10px;
 	box-shadow: 0px 0px 5px;
 	display: flex;
@@ -94,6 +94,11 @@ li:hover {
 	background-color: #84d686;
 	transition: background-color .25s ease-in-out;
 }
+
+
+
+
+/* Utilities */
 
 .container {
 	padding-top:5%;
